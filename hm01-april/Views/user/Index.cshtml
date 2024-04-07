@@ -1,0 +1,23 @@
+﻿@model UserModel
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Information</title>
+</head>
+
+<body>
+    <h1>User Information</h1>
+
+    <h2>Using ViewBag</h2>
+    <p>Name: @ViewBag.Name</p>
+    <p>Age: @ViewBag.Age</p>
+
+    <h2>Using ViewData</h2>
+    <p>Name: @ViewData["Name"]</p>
+    <p>Age: @ViewData["Age"]</p>
+
+    <h2>Using Model</h2>
+    <p>Name: @Model.Name</p>
+    <p>Age: @Model.Age</p>
+</body>
+</html>
